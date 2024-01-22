@@ -22,8 +22,46 @@
         <li>Inline css</li>
         <li>Internal css</li>
         <li>External css</li>
-        
     </ol>
 </div>
+<ol>
+<div>
+    <li><h2>Inline CSS</li></h2>
+    <p>Inline styles are defined within the "style" attribute of the relevant element:</p>
+</div>
+<div>
+    <h2>Syntax</h2>
+    <p1>&ltp style="color:red;">This is a paragraph.&lt/p></p1>  <!--inline css use within body tag -->
+</div>
+<div>
+    <li><h2>Internal css</li></h2>
+    <p>The internal style is defined inside the &ltstyle> element, inside the head section.</p>
+</div>
+<div>
+    <h2>
+        Syntax
+    </h2>
+    <p1>&lthead><br>
+        &ltstyle><br>
+        body {
+        background-color: linen;
+        }
+        <br>
+        h1 {
+        color: maroon;
+        margin-left: 40px;
+        }<br>
+        &lt/style><br>
+        &lt/head></p1>
+</div>
+<div>
+    <li><h1>External</li></h1>
+    <p>Each HTML page must include a reference to the external style sheet file inside the &ltlink> element, inside the head section.</p>
+</div>
+<div>
+    <h2>Syntax</h2>
+    <p1>&ltlink rel="stylesheet" href="mystyle.css"></p1>
+</div>
+</ol>
 </body>
 </html>
