@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Design card</title>
     <style>
-        
+        .container {
+            width: 20vw;
+            padding: 5px;
+            border: 1px solid rgb(179, 168, 168);
+            margin: 20px auto;
+            border-radius: 9px;
+            overflow: hidden;
+        }
+    
+        .inner img {
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+    
+        .button .span1 {
+            border: 2px solid rgb(226, 226, 226);
+            padding: 1px 10px;
+            margin: 5px;
+            font-family:'Times New Roman', Times, serif;
+            border-radius: 15px;
+            color: rgb(161, 156, 156);
+        }
+
+        p{
+            color: rgb(194, 188, 188);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .last button {
+            background-color: rgb(185, 227, 243);
+            border: none;
+            border-radius: 15px;
+            padding: 8px 20px;
+            margin-left: 70px;
+            color: rgb(121, 121, 224);
+            font-size: small;
+        }
     </style>
 </head>
+
 <body>
-    <h1></h1>
+    <div class="container">
+        <div class="inner"><img src="boat.png" alt="" width="308px" height="180px"></div>
+        <div class="button">
+            <span class="span1">Nature</span>
+            <span class="span1">Lake</span>
+        </div>
+        <h2>Lago di Braies</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam eligendi ea recusandae placeat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, recusandae?
+            praesentium.</p>
+        <div class="last"><button><b>Read More</b></button></div>
+    </div>
+    <!-- card.png is a file which contain a card image.
+        Write html and css to dessign this card -->
 </body>
+
 </html>
