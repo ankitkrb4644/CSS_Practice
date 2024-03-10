@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css animation</title>
+    <style>
+        .container{
+            background-color: rgb(253, 143, 0);
+            width: 80vw;
+            height: 30vh;
+
+        }
+        .box{
+            width: 30vw;
+            height: 40vh;
+            background-color: rgb(10, 199, 0);
+            animation-name: ankitkaanimation;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-out;
+            animation-delay: 1s;
+            animation-direction: alternate-reverse;
+            /* animation-play-state: paused; */
+            animation: ankit07 3s ease-in-out 3s 1;
+            
+        }
+        @keyframes ankitkaanimation{
+            from{
+                background-color: pink;
+            }
+            to{
+                background-color: yellow;
+                transform: translate(1000px);
+            }
+        }
+        @keyframes ankit07{
+            0%{
+                transform: rotate(100deg);
+            }
+            30%{
+                transform: rotate(300deg);
+            }
+            70%{
+                transform: rotate(00deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
